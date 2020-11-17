@@ -1,0 +1,62 @@
+{"rooms":
+[{
+  "id": "Big conference left",
+  "width":137.5,
+  "height":359,
+  "x":0,
+  "y":0,
+  "fill":"white"
+},{
+  "id": "Big conference right bottom",
+  "width":578.5,
+  "height":173.3,
+  "x":137.5,
+  "y":185.7,
+  "fill":"white"
+},{
+  "id": "Long conference left",
+  "width":45.5,
+  "height":200,
+  "x":0,
+  "y":50,
+  "fill": "white"
+},
+  {
+    "id": "Conference left bottom",
+    "width":65.7,
+    "height":64,
+    "x":0,
+    "y":295,
+    "fill": "white"
+  },{
+  "id": "Stairs left bottom",
+  "width":65.7,
+  "height":45,
+  "x":0,
+  "y":250,
+  "fill": "red"
+},
+  {
+    "id": "WC Middle",
+    "width":33,
+    "height":109.3,
+    "x":137.5,
+    "y":185.7,
+    "fill": "grey"
+  },{
+  "id": "Stairs Middle",
+  "width":72,
+  "height":45,
+  "x":170.5,
+  "y":250,
+  "fill": "red"
+},{
+  "id": "Conference middle bottom",
+  "width":106,
+  "height":173.3,
+  "x":242.5,
+  "y":185.7,
+  "fill": "white"
+}
+]
+}

@@ -1,0 +1,78 @@
+{"rooms":
+    [{
+        "id": "conference left",
+        "width":130,
+        "height":55,
+        "x":0,
+        "y":0,
+        "fill":"white"
+    },{
+        "id": "conference right",
+        "width":120,
+        "height":55,
+        "x":130,
+        "y":0,
+        "fill":"white"
+    },{
+        "id": "gallery",
+        "width":105,
+        "height":122.5,
+        "x":250,
+        "y":37.5,
+        "fill":"grey"
+    },{
+        "id": "stairs left",
+        "width":66,
+        "height":61,
+        "x":0,
+        "y":55,
+        "fill":"grey"
+    },{
+        "id": "storage+catering",
+        "width":97,
+        "height":61,
+        "x":82,
+        "y":55,
+        "fill":"grey"
+    },{
+        "id": "facilities left",
+        "width":55,
+        "height":61,
+        "x":195,
+        "y":55,
+        "fill":"grey"
+    },
+    {
+        "id": "lower meeting room left",
+        "width":39,
+        "height":51,
+        "x":0,
+        "y":116,
+        "fill":"red"
+    },{
+        "id": "lower office left",
+        "width":211,
+        "height":51,
+        "x":39,
+        "y":116,
+        "fill":"white"
+    },{
+        "id": "upper office right",
+        "width":300,
+        "height":55,
+        "x":355,
+        "y":0
+    },{
+        "id": "facilities right",
+        "width":300,
+        "height":55,
+        "x":355,
+        "y":55
+    },{
+        "id": "lower office right",
+        "width":300,
+        "height":55,
+        "x":355,
+        "y":110
+    }]
+}

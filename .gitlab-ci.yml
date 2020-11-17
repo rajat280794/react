@@ -1,0 +1,25 @@
+stages:
+    - build
+    - deploy
+
+build:
+    stage: build
+    image: node
+    script:
+        - echo "Start building App"
+        - npm install
+        - CI=false npm run build
+        - echo "Build successfully!"
+    artifacts:
+        expire_in: 1 hour
+        
+deploy:
+    stage: deploy
+    script:
+        - echo "Deploying App on AWS"
+        - curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+        - python get-pip.py
+        - pip install awscli
+        - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+        - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+        - aws s3 sync ./build s3://test-aws-react-app-gitlab --acl public-read
